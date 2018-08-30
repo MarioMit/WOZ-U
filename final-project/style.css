@@ -1,3 +1,11 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
 img {
 
     width: 90px;
@@ -11,9 +19,48 @@ img {
     #idCard {
     
     border: 5px solid black;
+
+    border-radius: 25px;
     
     height: 14em;
     
     width: 25em;
+
+    background-color: beige;
+
+    margin: auto;
+
+    font-family: 'IBM Plex Mono', monospace;
     
     }
+
+    .form{
+        text-align: center;
+        
+        display: block;
+    }
+
+    input[type=text]:focus {
+        background-color: rgb(173, 230, 176);
+    }
+
+    #postFullName{
+        text-align: right;
+        font-size: 30px;
+    }
+
+    #postAge{
+        text-align: left;
+        color: blue;
+    }
+
+    #postAddress{
+        text-align: left;
+        color: blueviolet;
+    }
+
+    #postPhoneNumber{
+        text-align: left;
+        color: tomato;
+    }
+

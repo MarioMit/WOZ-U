@@ -4,6 +4,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
 
 <title></title>
 
@@ -13,14 +14,16 @@
 
 <h1>"Let's Create an ID card!"</h1>
 
+<div class="form">
 <form>
-    First name: <input type="text" name="fname" id="fName"><br>
-    Last name: <input type="text" name="lname" id="lName"><br>
-    Age:<input type="text" age="age" id="years"><br>
-    Phone Number:<input type="text" phone="pnumber" id="phone"><br>
-    Address:<input type="text" address="address" id="address"><br>
+    First name:<br> <input type="text" name="fname" id="first"><br>
+    Last name:<br> <input type="text" name="lname" id="last"><br>
+    Age:<br><input type="text" age="age" id="years"><br>
+    Phone Number:<br><input type="text" phone="pnumber" id="phone"><br>
+    Address:<br><input type="text" address="address" id="address"><br>
   </form>
-  <button onclick="idCard()"></button>
+  <button onclick="idCard()">"Make My ID!"</button>
+</div>
     
 <div id="idCard">
 
